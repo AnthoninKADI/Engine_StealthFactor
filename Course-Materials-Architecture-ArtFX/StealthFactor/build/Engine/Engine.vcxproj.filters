@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gameplay">
+      <UniqueIdentifier>{F52FA6BA-E1FC-00C6-0A16-EF6DF6413654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameplay\components">
+      <UniqueIdentifier>{0A36726C-7697-4F7A-FF04-962C6B658639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameplay\entities">
+      <UniqueIdentifier>{69A8C3A6-D5BE-C13C-1E36-4D5E8A8B92C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{36EF08BC-22BC-63C7-4BD5-516F37019955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{B54AA90F-215F-D1C0-EAE0-742056B4CDF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{A823A1AC-1403-2048-1D1B-AB1E897986A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{43339F7C-2F6A-A00D-D856-8610C46C1C0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\engine\Engine.hpp" />
+    <ClInclude Include="..\..\code\engine\gameplay\Component.hpp">
+      <Filter>gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\gameplay\Entity.hpp">
+      <Filter>gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\gameplay\GameplayManager.hpp">
+      <Filter>gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\gameplay\components\DrawComponent.hpp">
+      <Filter>gameplay\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\gameplay\components\PhysicComponent.hpp">
+      <Filter>gameplay\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\gameplay\entities\Enemy.hpp">
+      <Filter>gameplay\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\gameplay\entities\Player.hpp">
+      <Filter>gameplay\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\gameplay\entities\Target.hpp">
+      <Filter>gameplay\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\graphics\GraphicsManager.hpp">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\graphics\ShapeList.hpp">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\graphics\Window.hpp">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\input\InputManager.hpp">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\physics\PhysicsManager.hpp">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\util\ComponentManager.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\util\Event.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\util\StringId.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\code\engine\Engine.cpp" />
+    <ClCompile Include="..\..\code\engine\gameplay\Component.cpp">
+      <Filter>gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\gameplay\Entity.cpp">
+      <Filter>gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\gameplay\GameplayManager.cpp">
+      <Filter>gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\gameplay\components\DrawComponent.cpp">
+      <Filter>gameplay\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\gameplay\components\PhysicComponent.cpp">
+      <Filter>gameplay\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\gameplay\entities\Enemy.cpp">
+      <Filter>gameplay\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\gameplay\entities\Player.cpp">
+      <Filter>gameplay\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\gameplay\entities\Target.cpp">
+      <Filter>gameplay\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\graphics\GraphicsManager.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\graphics\ShapeList.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\graphics\Window.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\input\InputManager.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\main.cpp" />
+    <ClCompile Include="..\..\code\engine\physics\PhysicsManager.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\util\StringId.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
